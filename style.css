@@ -1,0 +1,184 @@
+/*
+* Common
+*******************************/
+
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN";
+}
+
+/*
+* Main Visual
+*******************************/
+
+.main-visual img {
+  width: 100%;
+}
+
+.main-visual .title {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Herculanum;
+}
+
+.revList {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 5px;
+    height: 120px;
+    width: 80%;
+    line-height: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    
+}
+
+/*
+* Content
+*******************************/
+
+.content {
+  padding: 20px 60px;
+  margin-bottom: 50px;
+}
+.content button {
+  background-color: white;
+  width: 100px;
+  padding: 5px 0px;
+  font-size: 15px;
+  color: black;
+  margin-right: 5px;
+  border: 1px solid #8e8787;
+  font-family: Hiragino Mincho ProN;
+}
+.content .active {
+  background-color: rgb(245, 245, 92);
+  width: 70px;
+  color: black;
+  border: 1px solid #8e8787;
+  font-family: Hiragino Mincho ProN;
+}
+.content .right-area .heart {
+  width: 100px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.content ul {
+  padding: 10px 0;
+}
+
+.content li {
+  padding: 10px 0;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.content li img {
+  width: 25%;
+  
+}
+
+.content li .right-area {
+  padding-left: 20px;
+  width: 75%;
+  position: relative;
+}
+
+.content li .right-area .title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.content li .right-area .price-add {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.content li .right-area .price-add .price {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/*
+* Popup
+*******************************/
+
+.popup {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.425);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;  
+}
+
+.popup .popup-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  margin-left: 10px;
+  height: 500px;
+}
+
+.popup .popup-inner .popup-preview {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 60%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.popup .popup-inner .popup-preview .close {
+  position: absolute;
+  width: 20px;
+  right: 35px;
+  top: 2px;
+}
+
+
+/*
+* Footer
+*******************************/
+
+footer {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #b9b9b9;
+  display: flex;
+  justify-content: flex-end;
+  padding: 13px;
+}
+
+footer .subtotal {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+footer button {
+  background-color: black;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Hiragino Mincho ProN;
+  color: white;
+  border: 0;
+  margin-right: 50px;
+}
